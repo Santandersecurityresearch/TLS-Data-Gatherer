@@ -1,0 +1,30 @@
+{
+    "measured_values" : ["TLS version", "Cipher Suite"],
+    "dict_values" : {
+        "TLS version" : "TLS_VERSION", 
+        "Cipher Suite" : "Current Value(s) - SSLCipherSuite"},
+    "dict_columns" : {
+        "TLS version" : ["TLS VERSION COMPLIANCE", "TLS VERSION SAFETY"],
+        "Cipher Suite" : ["CIPHERSUITES COMPLIANCE", "CIPHERSUITES SAFETY"]},
+    "dict_multindexes" : {
+        "TLS version" : [
+            ["Compliant", "Safe"], 
+            ["Non-compliant", "Safe but obsolete"], 
+            ["Non-compliant", "Forbidden"]
+        ],
+        "Cipher Suite" : [
+            ["Compliant", "Safe"], 
+            ["Non-compliant", "Safe"], 
+            ["Non-compliant", "Weak"], 
+            ["Non-compliant", "Forbidden"]
+        ]},
+    "dict_barwidth":{
+        "Compliant":0.5,
+        "Non-compliant":0.5},
+    "dict_width_ratios":{
+        "Compliant":0.35, 
+        "Non-compliant":0.65},
+    "title":{
+        "TLS version" : "TLS Version Compliance & Safety", 
+        "Cipher Suite" : "Cipher Suite Compliance & Safety"}
+}

@@ -1,0 +1,8 @@
+{
+    "Stage1" : "Stage1_csvCleanse",
+    "Stage2" : "Stage2_RowsMerged",
+    "Stage3" : "Stage3_VirtualHostSeparation",
+    "Stage4" : "Stage4_TLSVersionsInterpreted",
+    "Stage5" : "Stage5_CriteriaEstablished",
+    "Stage6" : "Stage6_OutputData"
+}
