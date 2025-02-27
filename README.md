@@ -101,3 +101,21 @@ This code is organized around six stages. The addition of new technologies (as I
 `Technology` may also be considered for default behavior of said technology.
 6. In the folder `stage5_criteria`, in file `tls_version_compliance_filter.py`, take into account that rules may vary depending on technology. Add as many rules as needed.
 7. In the folder `stage5_criteria`, in file `tls_version_safety_filter.py`, take into account that rules may vary depending on technology. Add as many rules as needed.
+
+## Work methodology
+
+In the beginning, participants in this project were going to be directly whitelisted to work on the repository. However, due to cybersecurity restrictions, we are forced to collaborate using forks. [More information on forking](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo). This change makes no difference in the essence: being able to collaborate on a single repository.
+
+The idea behind forking is for participants to have complete freedom when it comes to working with the contents of the forked repository. In order to submit any addition, participants must submit a pull request from the fork with all the changes needed to the main repository. 
+
+Also, due to cybersecurity restrictions, commits made on the forks leading to the pull requests are expected to be signed. [More information on signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
+
+Streamlined, the workflow would be the following:
+
+1) Create a fork from this repository. Ideally there should  be only one participant working on a specific technology to avoid clashes. In case that several participants want to work on the same technology, they should synchronize/organize themselves to avoid collissions. 
+2) Submit all commits on the code to a branch the fork. We expect all commits to be signed.
+3) Create a pull request; this must point to the original repository. Pull requests will be evaluated and accepted/rejected based on the completeness of the new functionality.
+
+### Opening issues
+
+Issues can be opened by any participant for the main repository. Questions may be asked about the project itself, code intrincacies, the new technologies being added, etc.
