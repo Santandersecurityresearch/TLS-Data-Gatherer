@@ -11,9 +11,9 @@ def filter_undetected_controls(dataFrame):
         (dataFrame["Control - SSLEngine"] != "0") &
         (dataFrame["Control - VirtualHosts (CID 9798)"] != "0") &
         (dataFrame["Control - VirtualHosts (CID 9799)"] != "0") &
-        (dataFrame["Control - SSLProtocol"] != "0") &
+        (dataFrame["Control - SSLProtocol (CID 10838)"] != "0") &
         (dataFrame["Control - SSLProtocol (CID 10839)"] != "0") &
-        (dataFrame["Control - SSLProtocol (CID 7786)"] != "0") &
+        (dataFrame["Control - SSLProtocol"] != "0") &
         (dataFrame["Control - SSLCipherSuite"] != "0") &
         (dataFrame["Control - SSLCipherSuite (CID 10841)"] != "0") &
         (dataFrame["Control - SSLCipherSuite (CID 7787)"] != "0") &
