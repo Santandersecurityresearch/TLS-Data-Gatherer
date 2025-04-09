@@ -22,7 +22,7 @@ The policy report is the input to our process. In order to get the .csv files, t
     * 16086 - Status of the 'SSLEngine' derivative within the Apache configuration files (server config and virtual host)
     * 9798 - Status of "Header" setting within virtualhost whose "SSLEngine" is set "on"
     * 9799 - List of VirtualHost elements whose "SSLEngine" is set "on" and no "Header" set neither at server level nor at Virtual Host level
-    * 10838 - Status of 'SSLProtocol' at server level
+    * 7786 - Status of the 'sslprotocol' directive on the host
     * 10840 - Status of "SSLCipherSuite" settings
     * 7640 - Status of the 'Listen' directive in the Apache configuration file on the host
     * 19505 - Status of the 'VirtualHost' directive in the apache configuration file
